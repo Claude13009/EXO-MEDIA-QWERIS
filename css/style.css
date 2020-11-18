@@ -1,0 +1,41 @@
+header
+{
+    background-color: black;
+    color: red;
+}
+
+main
+{
+    margin: auto;
+}
+
+footer ul
+{
+    background-color: black;
+    color: red;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+@media screen and (max-width: 600px)
+{
+
+    header
+    {
+        background-color: black;
+        color:green;
+    }
+
+    main
+    {
+        display: none;
+    }
+
+    footer ul
+    {
+        background-color: black;
+        color: green;
+    }
+}
